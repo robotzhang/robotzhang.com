@@ -10,6 +10,7 @@
 .row {
   padding: 50px 0;
   h2 { text-align: center; font-size: 28px; color: #333; margin-bottom: 50px; }
+  .col { float: left; }
 }
 
 .banners {
@@ -36,10 +37,18 @@
 
 .why {
   @extend .row; background-color: #f7f8f2;
+  .col {
+    width: 25%;
+    .item { background-color: #fff; padding: 20px; margin: 0 10px; border-radius: 5px; }
+  }
 }
 
 .services {
   @extend .row; background-color: #e0eeef;
+  .col {
+    width: 25%;
+    .item { background-color: #fff; padding: 20px; margin: 0 10px; border-radius: 5px; }
+  }
 }
 
 .processes {
@@ -78,5 +87,12 @@
 }
 
 .voices {
-  @extend .row;
+  @extend .row; color: #abaaa2; font-size: 14px; width: 70%; margin: 0 auto;
+  .face {
+    float: left; margin-right: 20px;
+    img { border-radius: 80px; }
+  }
+  .text {
+    height: 60px;
+  }
 }
