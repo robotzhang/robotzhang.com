@@ -38,8 +38,8 @@
 .why {
   @extend .row; background-color: #f7f8f2;
   .col {
-    width: 25%;
-    .item { background-color: #fff; padding: 20px; margin: 0 10px; border-radius: 5px; }
+    width: 33.333%;
+    .item { background-color: #fff; padding: 20px; margin: 0 10px; border-radius: 5px; margin-bottom: 20px; }
   }
   h4 {
     font-size: 1.2em; color: #333; font-weight: normal; line-height: 100%; margin-bottom: 10px;
