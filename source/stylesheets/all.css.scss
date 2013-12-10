@@ -10,7 +10,12 @@
 .row {
   padding: 50px 0;
   h2 { text-align: center; font-size: 28px; color: #333; margin-bottom: 50px; }
-  .col { float: left; }
+  .col {
+    float: left;
+    h4 {
+      font-size: 1.2em; color: #333; font-weight: normal; line-height: 100%; margin-bottom: 10px;
+    }
+  }
 }
 
 .banners {
@@ -44,18 +49,17 @@
     }
     img { width: 100%; }
   }
-  h4 {
-    font-size: 1.2em; color: #333; font-weight: normal; line-height: 100%; margin-bottom: 10px;
-  }
-
-  ul { list-style: circle; }
 }
 
 .services {
   @extend .row; background-color: #e0eeef;
   .col {
-    width: 25%;
-    .item { background-color: #fff; padding: 20px; margin: 0 10px; border-radius: 5px; }
+    width: 50%;
+    .item { padding-left: 50px; padding-right: 20px; margin: 20px 0; border-radius: 5px; }
+    .development { background: image-url("home/services/plane.png") no-repeat; }
+    .consulting { background: image-url("home/services/key.png") no-repeat; }
+    .upgrade { background: image-url("home/services/upgrade.png") no-repeat; }
+    .startup { background: image-url("home/services/tool.png") no-repeat; }
   }
 }
 
