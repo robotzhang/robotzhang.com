@@ -46,6 +46,14 @@
     width: 33.333%;
     .item {
       background-color: #fff; padding: 20px; margin: 0 10px; border-radius: 5px; margin-bottom: 20px;
+
+      .img { height: 130px; overflow: hidden; margin-bottom: 10px; }
+    }
+    .tp {
+      .img { height: 105px; }
+    }
+    .quality, .master, .charge {
+
     }
     img { width: 100%; }
   }
