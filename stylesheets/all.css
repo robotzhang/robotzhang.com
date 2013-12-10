@@ -70,88 +70,97 @@
   /* line 14, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .row .col, .contacts .col, .why .col, .services .col, .processes .col, .voices .col {
     float: left; }
+    /* line 16, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .row .col h4, .contacts .col h4, .why .col h4, .services .col h4, .processes .col h4, .voices .col h4 {
+      font-size: 1.2em;
+      color: #333;
+      font-weight: normal;
+      line-height: 100%;
+      margin-bottom: 10px; }
 
-/* line 17, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 22, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .banners {
   padding: 50px 0;
   height: 250px;
   background: url("/images/home/banner/what-mine-is-yours.jpg") -110px -150px; }
-  /* line 19, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 24, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .banners h2 {
     font-size: 28px; }
 
-/* line 25, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 30, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .contacts .item {
   font-size: 14px;
   height: 28px;
   float: left;
   width: 25%;
   line-height: 15px; }
-  /* line 27, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 32, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .contacts .item img {
     vertical-align: middle; }
-/* line 29, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 34, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .contacts .img {
   float: left;
   margin-right: 5px;
   height: 50px; }
-/* line 33, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 38, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .contacts .text {
   margin-right: 20px; }
-  /* line 35, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 40, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .contacts .text .small {
     margin-top: 5px;
     color: #999; }
 
-/* line 39, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 44, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .why {
   background-color: #f7f8f2; }
-  /* line 41, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 46, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .why .col {
     width: 33.333%; }
-    /* line 43, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 48, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .why .col .item {
       background-color: #fff;
       padding: 20px;
       margin: 0 10px;
       border-radius: 5px;
       margin-bottom: 20px; }
-    /* line 46, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 51, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .why .col img {
       width: 100%; }
-  /* line 48, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
-  .why h4 {
-    font-size: 1.2em;
-    color: #333;
-    font-weight: normal;
-    line-height: 100%;
-    margin-bottom: 10px; }
-  /* line 52, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
-  .why ul {
-    list-style: circle; }
 
 /* line 55, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .services {
   background-color: #e0eeef; }
   /* line 57, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .services .col {
-    width: 25%; }
+    width: 50%; }
     /* line 59, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .services .col .item {
-      background-color: #fff;
-      padding: 20px;
-      margin: 0 10px;
+      padding-left: 50px;
+      padding-right: 20px;
+      margin: 20px 0;
       border-radius: 5px; }
+    /* line 60, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .services .col .development {
+      background: url("/images/home/services/plane.png") no-repeat; }
+    /* line 61, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .services .col .consulting {
+      background: url("/images/home/services/key.png") no-repeat; }
+    /* line 62, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .services .col .upgrade {
+      background: url("/images/home/services/upgrade.png") no-repeat; }
+    /* line 63, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .services .col .startup {
+      background: url("/images/home/services/tool.png") no-repeat; }
 
-/* line 63, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 67, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .processes {
   background-color: #e7ecf2; }
-  /* line 65, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 69, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .processes .bar {
     background-color: #c4ccdf;
     /*#adb6c5, #7abd54, #56c7df*/
     height: 3px; }
-  /* line 69, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 73, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .processes .step {
     background: url("/images/home/processes/bar-dotted.png") 0px 0px no-repeat;
     color: #fff;
@@ -161,7 +170,7 @@
     float: left;
     height: 5px;
     margin-top: -1px; }
-  /* line 75, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 79, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .processes .box {
     float: left;
     padding: 10px;
@@ -170,40 +179,40 @@
     position: relative;
     width: 20%;
     border-radius: 3px; }
-    /* line 78, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 82, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .processes .box .narrow {
       width: 13px;
       height: 7px;
       background: url("/images/home/processes/narrow.png");
       position: absolute;
       left: 30px; }
-  /* line 83, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 87, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .processes .box-top {
     margin-bottom: 7px; }
-    /* line 85, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 89, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .processes .box-top .narrow {
       bottom: -7px; }
-  /* line 90, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 94, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .processes .box-bottom {
     margin-top: 7px; }
-    /* line 92, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 96, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .processes .box-bottom .narrow {
       background-position: -13px 0;
       top: -7px; }
 
-/* line 98, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 102, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .voices {
   color: #abaaa2;
   font-size: 14px;
   width: 70%;
   margin: 0 auto; }
-  /* line 100, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 104, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .voices .face {
     float: left;
     margin-right: 20px; }
-    /* line 102, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 106, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .voices .face img {
       border-radius: 80px; }
-  /* line 104, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 108, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .voices .text {
     height: 60px; }
