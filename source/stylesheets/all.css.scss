@@ -1,11 +1,16 @@
 /*非常简洁的css框架：http://imperavi.com/kube/forms/*/
+@import "susy";
 @import "ducument.css";
 @import "content.css.scss";
 
+$column-width   : 7em;
+$total-columns  : 12;
+
 .container {
-  width: 90%; margin: 0 auto;
+  @include container;
 }
 
+.last { margin-right: 0!important; }
 
 .row {
   padding: 50px 0;
@@ -27,7 +32,10 @@
 .contacts {
   @extend .row;
   .item {
-    font-size: 14px; height: 28px; float: left; width: 25%; line-height: 15px;
+    @include at-breakpoint(3) {
+      @include span-columns(3, 12);
+    }
+    font-size: 14px; line-height: 15px;
     img { vertical-align: middle; }
   }
   .img {
