@@ -1,14 +1,6 @@
-/*非常简洁的css框架：http://imperavi.com/kube/forms/*/
-@import "susy";
-@import "ducument.css";
-@import "content.css.scss";
-
-$column-width   : 7em;
-$total-columns  : 12;
-
-.container {
-  @include container;
-}
+@import "base";
+@import "reset";
+@import "content";
 
 .last { margin-right: 0!important; }
 
@@ -30,13 +22,9 @@ $total-columns  : 12;
 }
 
 .contacts {
-  @extend .row;
+  @extend .row; line-height: 15px;
   .item {
-    @include at-breakpoint(3) {
-      @include span-columns(3, 12);
-    }
-    font-size: 14px; line-height: 15px;
-    img { vertical-align: middle; }
+    @extend .span4;
   }
   .img {
     float: left; margin-right: 5px; height: 50px;
@@ -51,7 +39,7 @@ $total-columns  : 12;
 .why {
   @extend .row; background-color: #f7f8f2;
   .col {
-    width: 33.333%;
+    @extend .span3;
     .item {
       background-color: #fff; padding: 20px; margin: 0 10px; border-radius: 5px; margin-bottom: 20px;
 
@@ -68,9 +56,9 @@ $total-columns  : 12;
 }
 
 .services {
-  @extend .row; background-color: #e0eeef;
+  @extend .row; background-color: #e0eeef; /*background-color: #fdf6e3; color: #657b83;*/
   .col {
-    width: 50%;
+    @extend .span6;
     .item { padding-left: 50px; padding-right: 20px; margin: 20px 0; border-radius: 5px; }
     .development { background: image-url("home/services/plane.png") no-repeat; }
     .consulting { background: image-url("home/services/key.png") no-repeat; }
