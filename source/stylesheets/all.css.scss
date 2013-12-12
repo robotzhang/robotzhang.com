@@ -84,12 +84,19 @@
 }
 
 .voices {
-  @extend .row; color: #abaaa2; font-size: 14px; width: 70%; margin: 0 auto;
+  @extend .row; color: #abaaa2; font-size: 14px; margin: 0 auto;
+  @include at-breakpoint($pad) {
+    width: 90%;
+  }
+  @include at-breakpoint($pc) {
+    width: 70%;
+  }
   .face {
-    float: left; margin-right: 20px;
+    float: left;
     img { border-radius: 80px; }
   }
-  .text {
-    height: 60px;
+  .info {
+    margin-left: 100px;
+    .name { margin-top: 10px; }
   }
 }
