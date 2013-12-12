@@ -6,7 +6,7 @@
 
 .row {
   padding: 50px 0;
-  h2 { text-align: center; font-size: 28px; color: #333; margin-bottom: 50px; }
+  h2 { text-align: center; font-size: 28px; color: #333; margin-bottom: 50px; text-shadow: $text-shadow; }
   .col {
     float: left;
     h4 {
@@ -56,10 +56,10 @@
 }
 
 .services {
-  @extend .row; background-color: #e0eeef; /*background-color: #fdf6e3; color: #657b83;*/
+  @extend .row; background-color: #f3f7f8; /*#e0eeef; /*background-color: #fdf6e3; color: #657b83;*/
   .col {
     @extend .span6;
-    .item { padding-left: 50px; padding-right: 20px; margin: 20px 0; border-radius: 5px; }
+    .item { padding-left: 50px; padding-right: 20px; margin: 20px 0; border-radius: 5px; text-shadow: $text-shadow; }
     .development { background: image-url("home/services/plane.png") no-repeat; }
     .consulting { background: image-url("home/services/key.png") no-repeat; }
     .upgrade { background: image-url("home/services/upgrade.png") no-repeat; }
@@ -68,37 +68,18 @@
 }
 
 .processes {
-  @extend .row; background-color: #e7ecf2/*#f7f8f2*/;
-  .bar {
-    background-color: #c4ccdf; /*#adb6c5, #7abd54, #56c7df*/
-    height: 3px;
-  }
-  .step {
-    background: image-url("home/processes/bar-dotted.png") 0px 0px no-repeat;
-    color: #fff; text-align: center; font-size: 12px; width: 25%; float: left;
-    height: 5px; margin-top: -1px;
+  @extend .row; background-color: #e7ecf2/*#f7f8f2, #fdf6e3*/;
+  .col {
+    @extend .span4;
+    h4 {
+      height: 30px; line-height: 30px; font-size: 20px;
+      i { color: #fff; display: inline-block; zoom: 1; width: 30px; height: 30px; margin-right: 5px; text-align: center; vertical-align: middle; background: image-url("home/processes/dotted.png") -84px 0px no-repeat; }
+    }
+    img { width: 100%; margin-top: 10px; }
   }
 
   .box {
-    float: left;
-    padding: 10px; border: #c7ced6 1px solid; background: #fff; position: relative; width: 20%; border-radius: 3px;
-    .narrow {
-      width: 13px; height: 7px; background: image-url("home/processes/narrow.png"); position: absolute; left: 30px;
-    }
-  }
-
-  .box-top {
-    margin-bottom: 7px;
-    .narrow {
-      bottom: -7px;
-    }
-  }
-
-  .box-bottom {
-    margin-top: 7px;
-    .narrow {
-      background-position: -13px 0; top: -7px;
-    }
+    padding: 20px; background: #fff; position: relative; border-radius: 3px; margin: 10px 0;
   }
 }
 

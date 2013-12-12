@@ -24,8 +24,8 @@ input,textarea,select{font-size:100%}
 legend{color:#000}
 /* Copyright (c) 2012, Yahoo! Inc.  All rights reserved. */
 html{ font-size:100%;}
-body, select, button { font-size:12px; font-family: Helvetica, Tahoma, Arial, sans-serif; line-height:24px;}
-input, textarea { font-size:12px; font-family: Monaco, Helvetica, Tahoma, Arial, sans-serif; line-height:24px;}
+body, select, button { font-size:12px; font-family: Helvetica, Tahoma, Arial, sans-serif; line-height: $base-line-height;}
+input, textarea { font-size:12px; font-family: Monaco, Helvetica, Tahoma, Arial, sans-serif; line-height: $base-line-height;}
 button { cursor: pointer; }
 input{outline: none;}
 i, em, cite { font-style: normal; }
