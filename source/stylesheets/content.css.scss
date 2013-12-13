@@ -1,3 +1,6 @@
+@import "base";
+@import "reset";
+
 $mainColor: #56c7df;
 
 .nav {
@@ -5,7 +8,7 @@ $mainColor: #56c7df;
   .logo {
     background: image-url("logo.png") center center no-repeat; height: 50px; display: block;
     @include at-breakpoint($pad, $pc) {
-        float: left; width: 300px;
+        float: left; width: 234px;
     }
   }
   .menu {
