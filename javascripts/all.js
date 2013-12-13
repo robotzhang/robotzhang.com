@@ -18,4 +18,7 @@ $(document).ready(function() {
         $(this).removeClass("current");
         current_nav_menu.addClass('current');
     });
+
+    // RWD javascript
+
 });
