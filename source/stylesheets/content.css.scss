@@ -2,26 +2,36 @@
 
 $mainColor: #56c7df;
 
-.box {
-
-}
-
 .nav {
-  margin: 20px 0; position: relative;
+  margin: 10px 0;
   .logo {
-    background: image-url("logo.png") no-repeat; height: 50px; display: block; float: left; position: absolute; margin-top: -7px;
-    width: 300px;text-indent: 1000px; overflow: hidden;
+    background: image-url("logo.png") center center no-repeat; height: 50px; display: block;
+    @include at-breakpoint($pad, $pc) {
+        float: left; width: 300px;
+    }
   }
-  .menu {  }
-  li {
-    float: left; padding: 0 5px;
-    a { width: 60px; text-align: center; display: block; font-size: 14px; padding: 5px 15px 5px; color: #999; }
-    a:hover { text-decoration: none; }
-  }
-  .current {
-    a { background-color: $mainColor; color: #fff; border-radius: 3px; }
+  .menu {
+    margin-top: 10px;
+    @include at-breakpoint($pad, $pc) {
+      float: right;
+    }
+
+    li {
+      float: left; width: 25%;
+      a { display: block; text-align: center; font-size: 14px; padding: 5px 10px 5px; color: #999; }
+      a:hover { text-decoration: none; }
+      @include at-breakpoint($pad, $pc) {
+        width: auto;
+        a { width: 60px; }
+      }
+    }
+    .current {
+      a { background-color: $mainColor; color: #fff; border-radius: 3px; }
+    }
+
   }
 }
+
 
 .footer {
   text-align: center; color: #999; margin-top: 30px;

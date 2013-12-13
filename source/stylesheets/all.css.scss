@@ -23,16 +23,18 @@
 
 .contacts {
   @extend .row; line-height: 15px;
-  .item {
+  .col {
     @extend .span4;
-  }
-  .img {
-    float: left; margin-right: 5px; height: 50px;
-  }
+    .item {
+      padding: 10px;
+      .img {
+        float: left; margin-right: 5px; height: 50px;
+      }
 
-  .text {
-    margin-right: 20px;
-    .small { margin-top: 5px; color: #999; }
+      .text {
+        .small { margin-top: 5px; color: #999; }
+      }
+    }
   }
 }
 
