@@ -13,11 +13,34 @@ $(document).ready(function() {
     });
 
     // 首页banner的切换
-    var banners = $('.banners li');
-    $('.banners').click(function(){
+    function set_timer() {
+        return setInterval(function() {
+            $('.banners .next').click();
+        }, 5000);
+    }
+
+    var timer = set_timer();
+
+    $('.banners').mouseenter(function(){
+        clearInterval(timer);
+        $('.prev, .next').fadeIn();
+    }).mouseleave(function() {
+        timer = set_timer();
+        $('.prev, .next').fadeOut();
+    });
+
+    $('.prev, .next').click(function() {
+        var banners = $('.banners li');
         var now = banners.index($('.banners li:visible'));
-        var next = now + 1 >= banners.length ? 0 : now + 1;
-        banners.hide().eq(next).show();
+        var next = $(this).hasClass('.next') ? (now + 1) : (now - 1);
+        if (next >= banners.length) {
+           next = 0;
+        }
+
+        if (next < 0) {
+           next = banners.length - 1;
+        }
+        banners.hide().eq(next).fadeIn();
     });
 
     // RWD javascript
