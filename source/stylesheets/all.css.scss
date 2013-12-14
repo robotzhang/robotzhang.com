@@ -15,9 +15,14 @@
 }
 
 .banners {
-  padding: 50px 0; height: 250px;
-  h2 { font-size: 28px; }
-  background: image-url("home/banner/what-mine-is-yours.jpg") -110px -150px;
+  position: relative; border-bottom: #ccc 1px solid; overflow: hidden;
+  .letter {
+     font-size: 14px; color: #666; width: 400px; padding: 50px 150px; line-height: 150%;
+  }
+  .img { position: absolute; right: 100px; top: 0; z-index: -1; }
+  h2 { font-size: 38px; color: #0f9447; margin-bottom: 15px; }
+  //background: image-url("home/banner/what-mine-is-yours.jpg") -110px -150px;
+  li { display: none; }
 }
 
 .contacts {
