@@ -353,7 +353,7 @@ input {
         display: block;
         text-align: center;
         font-size: 14px;
-        padding: 5px 15px 5px;
+        padding: 5px 0px;
         color: #999; }
       /* line 23, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/content.css.scss */
       .nav .menu li a:hover {
@@ -364,7 +364,8 @@ input {
           width: auto; }
           /* line 26, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/content.css.scss */
           .nav .menu li a {
-            width: 60px; } }
+            width: 60px;
+            padding: 5px 15px; } }
     /* line 30, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/content.css.scss */
     .nav .menu .current a {
       background-color: #56c7df;
