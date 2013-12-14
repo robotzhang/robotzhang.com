@@ -19,11 +19,11 @@ $mainColor: #56c7df;
 
     li {
       float: left; width: 25%;
-      a { display: block; text-align: center; font-size: 14px; padding: 5px 15px 5px; color: #999; }
+      a { display: block; text-align: center; font-size: 14px; padding: 5px 0px; color: #999; }
       a:hover { text-decoration: none; }
       @include at-breakpoint($pad, $pc) {
         width: auto;
-        a { width: 60px; }
+        a { width: 60px; padding: 5px 15px; }
       }
     }
     .current {
