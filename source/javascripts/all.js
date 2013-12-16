@@ -43,7 +43,27 @@ $(document).ready(function() {
         banners.hide().eq(next).fadeIn();
     });
 
-    // RWD javascript
+    // 案例模块的图片切换
+    $('.images').mouseenter(function() {
+        $(this).find('.prev,.next').fadeIn();
+    }).mouseleave(function() {
+        $(this).find('.prev,.next').fadeOut();
+    });
 
+    $('.images .prev, .images .next').click(function() {
+        var images = $('.images .item');
+        var now = images.index($('.images .item:visible'));
+        var next = $(this).hasClass('next') ? (now + 1) : (now - 1);
+        if (next >= images.length) {
+            next = 0;
+        }
+        if (next < 0) {
+            next = images.length - 1;
+        }
+
+        images.hide().eq(next).show();
+    });
+
+    // RWD javascript
 
 });

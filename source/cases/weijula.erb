@@ -1,0 +1,52 @@
+---
+title: "成功案例::weijula"
+---
+<%
+   images = [
+           ['首页', 'homepage.jpg'],
+           ['发现激动人心的旅程', 'search.jpg'],
+           ['微聚日历', 'calendar.jpg'],
+           ['产品详情', 'product-detail.jpg'],
+           ['订单确认', 'order-confirmed.jpg'],
+           ['我在微聚的订单', 'my-orders.jpg'],
+           ['订单详情', 'order-detail.jpg'],
+           ['个人中心', 'user-center-my.jpg'],
+           ['管理系统-产品管理', 'backend-product.jpg'],
+           ['管理系统-推荐维护', 'backend-recommend.jpg']
+   ]
+%>
+
+<div class="container case">
+  <div class="title">
+    WEIJULA
+    <small>
+      微聚旨在帮助人们更好地体验自然赋予生命的意义，探索这个我们赖以生存的世界，并在探索发现的过程中，更好地发展自己，了解他人。我们为微聚量身打造了这款充满人文气息的简洁强大的在线展示和销售系统，极大得增强了微聚的品牌，加快了微聚的业务流程，为微聚的事业发展提供了强大的动力。</small>
+  </div>
+
+  <div>
+    <div class="images">
+      <div class="prev"></div>
+      <div class="next"></div>
+
+      <% images.each_with_index do |image, index| %>
+      <div class="item"<%= ' style=display:block;' if index == 0 %>>
+        <div class="img"><%= image_tag "cases/weijula/"+image[1] %></div>
+        <div class="info"><%= image[0] %></div>
+      </div>
+      <% end %>
+    </div>
+
+    <div class="side">
+      <div class="side-title">技术流</div>
+      <ul>
+        <li>基于Ruby On Rails</li>
+        <li>HTML5 & CSS3</li>
+        <li>Resposive design</li>
+        <li>极简设计</li>
+        <li>文案设计及调优</li>
+        <li>网站性能优化</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
