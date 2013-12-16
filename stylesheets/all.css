@@ -594,47 +594,75 @@ input {
       color: #777; }
   /* line 124, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .case .images {
-    width: 74.57627%;
+    width: 100%;
     float: left;
-    margin-right: 1.69492%;
+    margin-right: 3.44828%;
     display: inline;
     position: relative; }
-    /* line 126, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    @media (min-width: 768px) {
+      /* line 124, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+      .case .images {
+        width: 74.35897%;
+        float: left;
+        margin-right: 2.5641%; } }
+    @media (min-width: 768px) {
+      /* line 124, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+      .case .images {
+        width: 74.57627%;
+        float: left;
+        margin-right: 1.69492%; } }
+    /* line 134, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .images img {
       width: 100%; }
-    /* line 127, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 135, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .images .item {
       display: none; }
-    /* line 128, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 136, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .images .info {
       text-align: center; }
-    /* line 129, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 137, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .images .arrow, .case .images .prev, .case .images .next {
       width: 32px;
       height: 32px;
       border-radius: 50px; }
-    /* line 130, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 138, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .images .prev {
       background: url("/images/arrow-left.png") white; }
-    /* line 131, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 139, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .images .next {
       background: url("/images/arrow-right.png") white; }
-  /* line 133, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 141, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .case .side {
-    width: 23.72881%;
+    width: 100%;
     float: left;
-    margin-right: 1.69492%;
+    margin-right: 3.44828%;
     display: inline;
     float: right;
     margin-right: 0;
     *margin-left: -20px;
     display: inline; }
-    /* line 136, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    @media (min-width: 768px) {
+      /* line 141, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+      .case .side {
+        width: 23.07692%;
+        float: left;
+        margin-right: 2.5641%;
+        float: right;
+        margin-right: 0; } }
+    @media (min-width: 1000px) {
+      /* line 141, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+      .case .side {
+        width: 23.72881%;
+        float: left;
+        margin-right: 1.69492%;
+        float: right;
+        margin-right: 0; } }
+    /* line 152, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .side .side-title {
       font-size: 16px;
       font-weight: 400;
       margin-bottom: 10px; }
-    /* line 137, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 153, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .case .side li {
       margin-left: 3px;
       padding: 10px 0;
@@ -642,47 +670,75 @@ input {
       border-bottom: 1px dotted #e9e9ea;
       background: url("/images/list-check.png") 0 center no-repeat; }
 
-/* line 142, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 158, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .page-contacts h2 {
   font-size: 16px;
   border-bottom: 1px solid #eee;
   margin: 20px 0 30px 0;
   padding: 10px 0; }
-  /* line 144, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  /* line 160, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .page-contacts h2 small {
     font-size: 14px;
     margin-left: 10px;
     color: #777; }
-/* line 146, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 162, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .page-contacts .main {
-  width: 66.10169%;
+  width: 100%;
   float: left;
-  margin-right: 1.69492%;
+  margin-right: 3.44828%;
   display: inline; }
-  /* line 148, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  @media (min-width: 768px) {
+    /* line 162, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .page-contacts .main {
+      width: 61.53846%;
+      float: left;
+      margin-right: 2.5641%; } }
+  @media (min-width: 1000px) {
+    /* line 162, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .page-contacts .main {
+      width: 66.10169%;
+      float: left;
+      margin-right: 1.69492%; } }
+  /* line 170, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .page-contacts .main .col {
     width: 100%;
     font-size: 14px; }
-    /* line 149, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 171, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .page-contacts .main .col .img {
       float: left;
       margin-bottom: 30px; }
-    /* line 150, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 172, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .page-contacts .main .col .text {
       margin-left: 40px; }
-    /* line 151, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    /* line 173, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
     .page-contacts .main .col .small {
       color: #777; }
-/* line 154, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+/* line 176, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
 .page-contacts .side {
-  width: 32.20339%;
+  width: 100%;
   float: left;
-  margin-right: 1.69492%;
+  margin-right: 3.44828%;
   display: inline;
   float: right;
   margin-right: 0;
   *margin-left: -20px;
   display: inline; }
-  /* line 157, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+  @media (min-width: 768px) {
+    /* line 176, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .page-contacts .side {
+      width: 35.89744%;
+      float: left;
+      margin-right: 2.5641%;
+      float: right;
+      margin-right: 0; } }
+  @media (min-width: 1000px) {
+    /* line 176, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
+    .page-contacts .side {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%;
+      float: right;
+      margin-right: 0; } }
+  /* line 187, /Users/zhangxiaohua/code/robotzhang.com/source/stylesheets/all.css.scss */
   .page-contacts .side b {
     font-weight: bold; }
