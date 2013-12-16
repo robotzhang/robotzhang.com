@@ -122,7 +122,15 @@
     small { font-size: 14px; margin-left: 10px; color: #777; }
   }
   .images {
-    @include span-columns(9, 12); position: relative;
+    @include span-columns(6);
+    @include at-breakpoint($pad) {
+      @include span-columns(6, 8);
+
+    }
+    @include at-breakpoint($pad) {
+      @include span-columns(9, 12);
+    }
+    position: relative;
     img { width: 100%; }
     .item { display: none; }
     .info { text-align: center; }
@@ -131,8 +139,16 @@
     .next { background: image-url('arrow-right.png') #fff; }
   }
   .side {
-    @include span-columns(3, 12);
+    @include span-columns(6);
     @include  omega;
+    @include at-breakpoint($pad) {
+      @include span-columns(2, 8);
+      @include  omega;
+    }
+    @include at-breakpoint($pc) {
+      @include span-columns(3, 12);
+      @include  omega;
+    }
     .side-title { font-size: 16px; font-weight: 400; margin-bottom: 10px; }
     li { margin-left: 3px; padding: 10px 0; padding-left: 20px; border-bottom: 1px dotted #e9e9ea; background: image-url("list-check.png") 0 center no-repeat; }
   }
@@ -144,7 +160,13 @@
     small { font-size: 14px; margin-left: 10px; color: #777; }
   }
   .main {
-    @include span-columns(8, 12);
+    @include span-columns(6);
+    @include at-breakpoint($pad) {
+      @include span-columns(5, 8);
+    }
+    @include at-breakpoint($pc) {
+      @include span-columns(8, 12);
+    }
     .col { width: 100%;  @extend .clearfix; font-size: 14px;
       .img { float: left; margin-bottom: 30px; }
       .text { margin-left: 40px; }
@@ -152,8 +174,16 @@
     }
   }
   .side {
-    @include span-columns(4, 12);
+    @include span-columns(6);
     @include  omega;
+    @include at-breakpoint($pad) {
+      @include span-columns(3, 8);
+      @include  omega;
+    }
+    @include at-breakpoint($pc) {
+      @include span-columns(4, 12);
+      @include  omega;
+    }
     b { font-weight: bold; }
   }
 }
