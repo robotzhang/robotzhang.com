@@ -26,7 +26,7 @@ $text-shadow: rgba(255,255,255,0.5) 0 1px 0;
   @include at-breakpoint($pc) {
     @include span-columns(4, 12);
     &:nth-child(2n) { @include remove-omega; } // 这个必须要放到前面
-    &:nth-child(3n) { @include omega; }
+    &:nth-child(3n) { margin-right: 0; }
   }
 }
 
@@ -39,7 +39,7 @@ $text-shadow: rgba(255,255,255,0.5) 0 1px 0;
   @include at-breakpoint($pc) {
     @include span-columns(3, 12);
     &:nth-child(2n) { @include remove-omega; } // 这个必须要放到前面
-    &:nth-child(4n) { @include omega; }
+    &:nth-child(4n) { margin-right: 0; }
   }
 }
 
