@@ -73,6 +73,7 @@
   @extend .row; background-color: #f3f7f8; /*#e0eeef; /*background-color: #fdf6e3; color: #657b83;*/
   .col {
     @extend .span6;
+    h4 { font-weight: bold; }
     .item { padding-left: 50px; padding-right: 20px; margin: 20px 0; border-radius: 5px; text-shadow: $text-shadow; }
     .development { background: image-url("home/services/plane.png") no-repeat; }
     .consulting { background: image-url("home/services/key.png") no-repeat; }
